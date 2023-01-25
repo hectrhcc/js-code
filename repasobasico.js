@@ -134,11 +134,12 @@ let miObjeto2 = {llave:"valor", nombre:"Agro", edad:22}
 console.log(miObjeto)
 console.log(miObjeto2)
 
+// arreglo de objetos
 let arregloObjeto = [miObjeto,miObjeto2]
 
 console.log(arregloObjeto)
 
-
+//agregando propiedades al objeto
 miObjeto.patas = 4
 
 
@@ -146,6 +147,8 @@ miObjeto.patas = 4
 
 console.log(miObjeto.nombre)
 
+
+//Calculadora
 
 const op1 = document.getElementById("op1")
 const op = document.getElementById("op")
@@ -186,4 +189,3 @@ function calcular(){
 	}
 
 }
-
